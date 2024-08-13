@@ -1,0 +1,22 @@
+/* Tüm sayfanın arka planını siyah yapar */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Siyah arka plan */
+    color: #fff; /* Beyaz metin rengi */
+    font-family: Arial, sans-serif;
+}
+
+/* Yükleme mesajını ortalar ve stil verir */
+#loading-message {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Video ve canvas öğeleri gizlenmiş durumda */
+#video, #canvas {
+    display: none;
+}
